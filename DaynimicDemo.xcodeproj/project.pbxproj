@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE4B69331E055CB100968CD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4B69321E055CB100968CD9 /* AppDelegate.m */; };
+		EE4B69361E055CB100968CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4B69351E055CB100968CD9 /* main.m */; };
+		EE4B69381E055CB100968CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4B69371E055CB100968CD9 /* Assets.xcassets */; };
+		EE4B693B1E055CB100968CD9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4B69391E055CB100968CD9 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE4B692E1E055CB100968CD9 /* DaynimicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaynimicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4B69311E055CB100968CD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE4B69321E055CB100968CD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE4B69351E055CB100968CD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE4B69371E055CB100968CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4B693A1E055CB100968CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EE4B693C1E055CB100968CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4B692B1E055CB100968CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE4B69251E055CB100968CD9 = {
+			isa = PBXGroup;
+			children = (
+				EE4B69301E055CB100968CD9 /* DaynimicDemo */,
+				EE4B692F1E055CB100968CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4B692F1E055CB100968CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4B692E1E055CB100968CD9 /* DaynimicDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4B69301E055CB100968CD9 /* DaynimicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE4B69311E055CB100968CD9 /* AppDelegate.h */,
+				EE4B69321E055CB100968CD9 /* AppDelegate.m */,
+				EE4B69371E055CB100968CD9 /* Assets.xcassets */,
+				EE4B69391E055CB100968CD9 /* MainMenu.xib */,
+				EE4B693C1E055CB100968CD9 /* Info.plist */,
+				EE4B69341E055CB100968CD9 /* Supporting Files */,
+			);
+			path = DaynimicDemo;
+			sourceTree = "<group>";
+		};
+		EE4B69341E055CB100968CD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4B69351E055CB100968CD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4B692D1E055CB100968CD9 /* DaynimicDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4B693F1E055CB100968CD9 /* Build configuration list for PBXNativeTarget "DaynimicDemo" */;
+			buildPhases = (
+				EE4B692A1E055CB100968CD9 /* Sources */,
+				EE4B692B1E055CB100968CD9 /* Frameworks */,
+				EE4B692C1E055CB100968CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaynimicDemo;
+			productName = DaynimicDemo;
+			productReference = EE4B692E1E055CB100968CD9 /* DaynimicDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4B69261E055CB100968CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = jinren;
+				TargetAttributes = {
+					EE4B692D1E055CB100968CD9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 49XFPF8C85;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE4B69291E055CB100968CD9 /* Build configuration list for PBXProject "DaynimicDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4B69251E055CB100968CD9;
+			productRefGroup = EE4B692F1E055CB100968CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4B692D1E055CB100968CD9 /* DaynimicDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4B692C1E055CB100968CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4B69381E055CB100968CD9 /* Assets.xcassets in Resources */,
+				EE4B693B1E055CB100968CD9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4B692A1E055CB100968CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4B69361E055CB100968CD9 /* main.m in Sources */,
+				EE4B69331E055CB100968CD9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE4B69391E055CB100968CD9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4B693A1E055CB100968CD9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4B693D1E055CB100968CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE4B693E1E055CB100968CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE4B69401E055CB100968CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49XFPF8C85;
+				INFOPLIST_FILE = DaynimicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.DaynimicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE4B69411E055CB100968CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49XFPF8C85;
+				INFOPLIST_FILE = DaynimicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.DaynimicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4B69291E055CB100968CD9 /* Build configuration list for PBXProject "DaynimicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4B693D1E055CB100968CD9 /* Debug */,
+				EE4B693E1E055CB100968CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4B693F1E055CB100968CD9 /* Build configuration list for PBXNativeTarget "DaynimicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4B69401E055CB100968CD9 /* Debug */,
+				EE4B69411E055CB100968CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4B69261E055CB100968CD9 /* Project object */;
+}
