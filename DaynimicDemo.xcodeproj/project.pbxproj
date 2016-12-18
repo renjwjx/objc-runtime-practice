@@ -11,6 +11,7 @@
 		EE4B69361E055CB100968CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4B69351E055CB100968CD9 /* main.m */; };
 		EE4B69381E055CB100968CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4B69371E055CB100968CD9 /* Assets.xcassets */; };
 		EE4B693B1E055CB100968CD9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4B69391E055CB100968CD9 /* MainMenu.xib */; };
+		EE4B69441E05749400968CD9 /* DynamicRunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4B69431E05749400968CD9 /* DynamicRunTime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		EE4B69371E055CB100968CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE4B693A1E055CB100968CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EE4B693C1E055CB100968CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4B69421E05749400968CD9 /* DynamicRunTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicRunTime.h; sourceTree = "<group>"; };
+		EE4B69431E05749400968CD9 /* DynamicRunTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicRunTime.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,8 @@
 			children = (
 				EE4B69311E055CB100968CD9 /* AppDelegate.h */,
 				EE4B69321E055CB100968CD9 /* AppDelegate.m */,
+				EE4B69421E05749400968CD9 /* DynamicRunTime.h */,
+				EE4B69431E05749400968CD9 /* DynamicRunTime.m */,
 				EE4B69371E055CB100968CD9 /* Assets.xcassets */,
 				EE4B69391E055CB100968CD9 /* MainMenu.xib */,
 				EE4B693C1E055CB100968CD9 /* Info.plist */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE4B69361E055CB100968CD9 /* main.m in Sources */,
+				EE4B69441E05749400968CD9 /* DynamicRunTime.m in Sources */,
 				EE4B69331E055CB100968CD9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
